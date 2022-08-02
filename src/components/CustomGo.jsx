@@ -12,7 +12,7 @@ const CustomGo = () => {
             <div className='go-bx'>
                 <Row>
                     <Col>
-                        <img src={gojek} className='gojekgif'/>
+                        <img src={gojek} className='gojekgif' alt='logo-gojek'/>
                     </Col>
                     <Col>
                         <h2 className='judul'>
@@ -25,27 +25,27 @@ const CustomGo = () => {
                     <Col>
                         <h6>PasarMayestik</h6>
                         <a href='https://gofood.link/a/EHM7S95'>
-                            <img src={clickme} className='clickme'/>
+                            <img src={clickme} className='clickme' alt='button'/>
                         </a>
                     </Col>
                     <Col>
                         <h6>GadingFestival</h6>
                         <a href='https://gofood.link/a/ECArJ5L'>
-                            <img src={clickme} className='clickme'/>
+                            <img src={clickme} className='clickme' alt='button'/>
                         </a>
                     </Col>
                 </Row>
                 <Row className='sekat'>
                     <Col>
                         <h6>ITCManggaDua</h6>
-                        <a href='#'>
-                            <img src={soon} className='clickme'/>
+                        <a href='www.google.com'>
+                            <img src={soon} className='clickme' alt='comingsoon'/>
                         </a>
                     </Col>
                     <Col>
                         <h6>Ciracas</h6>
                         <a href='https://gofood.link/a/ELuQ6J1'>
-                            <img src={clickme} className='clickme'/>
+                            <img src={clickme} className='clickme' alt='button'/>
                         </a>
                     </Col>
                 </Row>

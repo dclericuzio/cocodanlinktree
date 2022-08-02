@@ -24,9 +24,9 @@ const CustomBanner = () => {
                             </span>
                         </h1>
                         <div className='social-icon'>
-                            <a href="https://wa.me/62818589669"><img src={navIcon1} alt=""/></a>
-                            <a href="www.tiktok.com/@cocodan.id"><img src={navIcon2} alt=""/></a>
-                            <a href="https://instagram.com/cocodan.id?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt=""/></a>
+                            <a href="https://wa.me/62818589669"><img src={navIcon1} alt="whatsapp"/></a>
+                            <a href="www.tiktok.com/@cocodan.id"><img src={navIcon2} alt="tiktok"/></a>
+                            <a href="https://instagram.com/cocodan.id?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="instagram"/></a>
                         </div>
                         <br></br>
                         <br></br>
