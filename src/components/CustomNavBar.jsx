@@ -1,9 +1,6 @@
 import React from 'react'
 import {Navbar, Container, Nav} from 'react-bootstrap';
 import { useEffect, useState } from 'react';
-import navIcon1 from '../assets/img/whatsapp.svg';
-import navIcon2 from '../assets/img/tiktok.svg';
-import navIcon3 from '../assets/img/instagram.svg';
 import logo from '../assets/img/cocodan.png';
 
 const CustomNavBar = () => {
