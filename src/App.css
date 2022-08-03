@@ -315,8 +315,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* grab */
 
 .clickme{
-  height: 70px;
-  width: 120px;
+  height: 40px !important;
+  width: 80px !important;
 }
 
 .judul{
