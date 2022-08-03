@@ -4,6 +4,7 @@ import {Row, Container, Col} from 'react-bootstrap';
 import navIcon1 from '../assets/img/whatsapp.svg';
 import navIcon2 from '../assets/img/tiktok.svg';
 import navIcon3 from '../assets/img/instagram.svg';
+import scrolldown from '../assets/img/scrolldown.gif';
 
 const CustomBanner = () => {
   return (
@@ -30,16 +31,13 @@ const CustomBanner = () => {
                         </div>
                         <br></br>
                         <br></br>
+                        <img src={scrolldown} className='scrolldown' alt='button'/>
                         <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
+                        <img src={scrolldown} className='scrolldownbot' alt='button'/>
                         <br></br>
                     </Col>
                 </Row>
+                
             </Container>
     </section>
   )

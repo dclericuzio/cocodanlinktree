@@ -22,6 +22,12 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background: #F5CBA780;
+  
+}
+
+
 html{
   scroll-behavior: smooth;
   scroll-padding: 75px;
@@ -286,10 +292,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Banner */
+
 .banner {
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/wallpaper.jpg');
-  border-radius: 0 0 30px 30px;
+  border-radius: 0 0 64px 64px;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -334,7 +341,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .grab-bx {
   background-color: #fff ;
-  box-shadow: 0px 0px 40px 10px #34e028;
+  /* box-shadow: 0px 0px 40px 10px #34e028; */
   color: #121212;
   border-radius: 64px;
   text-align: center;
@@ -395,7 +402,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .go-bx {
   background-color: #fff ;
-  box-shadow: 0px 0px 40px 10px #34e028;
   color: #121212;
   border-radius: 64px;
   text-align: center;
@@ -429,3 +435,72 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+
+
+
+/* branches */
+
+.gif{
+  height: 60px;
+  width: 60px;
+}
+.downgif{
+  height: 30px;
+  width: 30px;
+}
+
+.mangif{
+  height: 200px;
+  width: 300px;
+}
+
+.judulbranch{
+  margin-top: 0px;
+}
+
+.branch {
+  background-image: url('./assets/img/branchwallpaper.jpg');
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding: 0 0 50px 0;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.branch-bx {
+  margin-top: 200px;
+  color: #121212;
+  text-align: center;
+}
+
+.branch h2 {
+	font-size: 45px;
+	font-weight: 700;
+  align-items: center;
+}
+
+.branch a{
+  padding-left: 50px !important;
+  font-size: 25px;
+  color: #fff;
+}
+.branch a:hover{
+  font-size: 25px;
+  color: #F5CBA7;
+}
+
+
+.branch .card{
+  background-color: #00000050 !important;
+  border-radius: 50px !important;
+  padding: 10px !important;
+  align-items: flex-start;
+}
+
+
+
+
